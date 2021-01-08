@@ -118,8 +118,8 @@ public class QueueTest {
             //2.给当前节点的下一个节点赋值
             cur.node = node;
             //3.将当前节点的地址赋值给cur指针---------------不明白
-            //cur.node = node;
-
+            //cur.node = node;43
+            //相当于指针，引用的赋值，下一个引用赋值给当前引用
             cur = node;
         }
         return heard;
